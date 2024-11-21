@@ -1,0 +1,15 @@
+/* this is the important bit */
+img {
+    object-fit: cover;
+    /* you must set the sizes here or it won't work. e.g. */
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* this is not important. It is to make columns so you can see it work */
+  .column {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    border: 1px solid red;
+  }
